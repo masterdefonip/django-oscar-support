@@ -6,7 +6,6 @@ from django.core.urlresolvers import reverse
 from . import forms
 from .. import utils
 
-Note = get_model('oscar_support', 'Note')
 Ticket = get_model('oscar_support', 'Ticket')
 Message = get_model('oscar_support', 'Message')
 TicketStatus = get_model('oscar_support', 'TicketStatus')
